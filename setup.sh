@@ -46,3 +46,8 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 ln -sb dotfiles/.tmux.conf .
+
+# git pull and setup homework project
+git clone git@github.com:rwenderlich/bitstarter
+cd bitstarter
+git remote add heroku git@heroku.com:guarded-stream-6230.git 
