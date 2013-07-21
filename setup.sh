@@ -58,4 +58,5 @@ ln -sb dotfiles/.tmux.conf .
 # git pull and setup homework project
 git clone git@github.com:rwenderlich/bitstarter
 cd bitstarter
-git remote add heroku git@heroku.com:guarded-stream-6230.git 
+git remote add staging-heroku git@heroku.com:rwenderlich-bitstarter-s-mooc.git
+git remote add production-heroku git@heroku.com:rwenderlich-bitstarter-mooc.git
